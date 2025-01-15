@@ -134,7 +134,7 @@ function Header(props) {
             src="/pics/svg/anruf.svg"
             alt="Phone"
           />
-          <p className="dib">0800 44 700 99</p>
+          <p className="dib">0700 44 700 99</p>
         </div>
         <div className="w-100 mv1">
           <img
@@ -143,8 +143,8 @@ function Header(props) {
             src="/pics/svg/briefumschlag.svg"
             alt="Email"
           />
-          <a className="blue" href="mailto: info@polnische-fenster.com">
-            info@polnische-fenster.com
+          <a className="blue" href="mailto: info@pfensterpilot.com">
+            info@fensterpilot.com
           </a>
         </div>
         <div className="w-100 mv3">
