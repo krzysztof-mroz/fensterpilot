@@ -46,8 +46,8 @@ function Header(props) {
   };
 
   const contactData = {
-    phone: "0800 44 700 99",
-    email: "info@polnische-fenster.com",
+    phone: "0700 44 700 99",
+    email: "info@fensterpilot.de",
     whatsapp: "+4915737448021",
   };
 
