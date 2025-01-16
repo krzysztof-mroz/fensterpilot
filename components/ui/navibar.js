@@ -21,7 +21,7 @@ function navibar() {
         <div className="dn db-l mt2-l">
           <Link href="/">
             <a className="f6 fw4 dim no-underline db dib-l pv2 ph3">
-              Polniche-Fenster.Com
+              FensterPilot.de
             </a>
           </Link>
           <Link href="/">
