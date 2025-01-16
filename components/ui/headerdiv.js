@@ -79,7 +79,7 @@ function Header(props) {
     <div className="flex flex-wrap justify-around w-100">
       {/* LOGO */}
       <div className="mt6-l dn db-l w-100 w-20-l tc mv1">
-        <img className="mt1 dib" src="/pics/logo_PF.png" alt="Logo"></img>
+        <img className="mt1 dib" src="/pics/fensterpilot_logo.png" alt="Logo"></img>
       </div>
 
       
