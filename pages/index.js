@@ -2,8 +2,8 @@ import { Fragment } from "react";
 import { useState, useEffect } from 'react';
 import Head from "next/head";
 import Image from "next/image";
-import image1 from "/public/living_black_2.jpg";
-import image2 from "/public/aws90_rust.jpg";
+import image1 from "/public/mb86_db703_FP.png";
+import image2 from "/public/fenster_aussen_anthr.jpg";
 import Description from "../components/ui/description";
 import HeaderDiv from "../components/ui/headerdiv";
 import WarumDiv from "../components/ui/warumdiv";
@@ -73,7 +73,7 @@ const WindowInfo = () => {
       </div>
       <div className="w-100 w-50-l pa2">
         <p className="lh-copy">
-          Unser Sortiment umfasst hochwertige <span className="b">Salamander</span>, <span className="b">Aluplast</span>, <span className="b">Gealan</span>, <span className="b">Schüco</span> und <span className="b">Kömmerling Fenster</span> von Profine in Kunststoffausführung sowie <span className="b">Aluprof, Aliplast, Schüco, Reynaers</span> und <span className="b">Ponzio</span> in Aluminium. Auf wunsch gibte es bei uns auch die <span className="b">Holzfenster</span>. Ob bodentiefe Fenster, Fenster mit Sprossen, Kellerfenster oder Schiebefenster – bei uns werden Sie fündig. Wir bieten eine Vielzahl an Sichtschutzgläsern und Farboptionen, wie Anthrazit, DB 703, Mahagoni und viele mehr.
+          Unser Sortiment umfasst hochwertige <span className="b">Salamander</span>, <span className="b">Aluplast</span> und <span className="b">Gealan</span> in Kunststoffausführung sowie <span className="b">Aluprof, Aliplast </span> und <span className="b">Reynaers</span> in Aluminium. Auf wunsch gibte es bei uns auch die <span className="b">Holzfenster</span>. Ob bodentiefe Fenster, Fenster mit Sprossen, Kellerfenster oder Schiebefenster – bei uns werden Sie fündig. Wir bieten eine Vielzahl an Sichtschutzgläsern und Farboptionen, wie Anthrazit, DB 703, Mahagoni und viele mehr.
         </p>
         <p className="lh-copy">
           Entdecken Sie auch unsere günstigen <span className="b">Fenster aus Polen</span>. Informieren Sie sich über unsere Auswahl an Fenster- und Türgriffen, flachen Türschwellen, auch für Schiebetüren, sowie über <span className="b">einbruchsichere Fenster und Türen</span>. Wir übernehmen gerne den Einbau, das Abdichten und das Einstellen Ihrer Fenster. Begleiten Sie uns auf dieser wundervollen Reise durch die Welt der Fenster und Türen.
@@ -114,10 +114,10 @@ const WindowInfo = () => {
 
   <div className="flex flex-wrap justify-around mb3 w-100 tc">
         <div className="w-100 w-40-l ma2 mt5-l">
-          <Image src={image1} alt="Kunststofffenster Schüco Living MD" />
+          <Image src={image1} alt="Aluminium Fenster Aluprof" />
         </div>
         <div className="w-100 w-40-l ma2 mt5-l">
-          <Image src={image2} alt="Aluminium Fenster Schüco AWS 90" />
+          <Image src={image2} alt="Kunststoff Fenster anthrazitgrau" />
         </div>
       </div>
 
