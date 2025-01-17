@@ -205,8 +205,8 @@ function Header(props) {
           <Link href="/aluplast">
             <a className="f6 fw4 no-underline db ph3">Aluplast</a>
           </Link>
-          <Link href="/schuecopvc">
-            <a className="f6 fw4 no-underline db ph3">Schüco</a>
+          <Link href="/gealan">
+            <a className="f6 fw4 no-underline db ph3">Gealan</a>
           </Link>
           <Link href="/salamander">
             <a className="f6 fw4 no-underline db ph3">Salamander</a>

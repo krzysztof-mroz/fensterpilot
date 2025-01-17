@@ -1,63 +1,6 @@
 const PROFILE = [
-    {
-        id: "pic_profil_ct_70_classic",
-        idcolor: "ct_70_classic_color", 
-        idcena: "ct_70_classic_cena",
-        idmwst: "ct_70_classic_mwst",
-        src: "../../pics/profile/ct_70_classic_weiß.png",
-        alt: "Schüco CT 70 Classic",
-        desc: "5 Kammer Profil mit 2 Dichtungen, 70 mm Einbautiefe. Versetzte klassische Optik. Fenster Uw ab 0,95 W/(m²·K), Glas Ug ab 0,6 W/(m²·K).",
-        brand: "s",
-        material: "k",
-        prices: [52, 58, 67, 78, 83],
-        idSlide: "ct70classic",
-        picSlide: "./pics/ct_70_classic_3d.jpg",
-        ikonka: "../pics/svg/profileicon",
-        komoryProfilu: "5 Kammer, 2 Dichtungen, 70 mm Tiefe",
-        last: false,
-        section: "./pics/sections/ct70classic.png",
-        movie: "./movies/ct70C.mp4"
-    },
-
-    {
-        id: "pic_profil_ct_70_rondo",
-        idcolor: "ct_70_rondo_color", 
-        idcena: "ct_70_rondo_cena",
-        idmwst: "ct_70_rondo_mwst",
-        src: "../../pics/profile/ct_70_rondo_weiß.png",
-        alt: "Schüco CT 70 Rondo",
-        desc: "5 Kammer Profil mit 2 Dichtungen, 70 mm Einbautiefe. Halbversetzte runde Optik. Fenster Uw ab 0,95 W/(m²·K), Glas Ug ab 0,6 W/(m²·K).",
-        brand: "s",
-        material: "k",
-        prices: [52, 58, 67, 78, 83],
-        idSlide: "ct70rondo",
-        picSlide: "./pics/ct_70_rondo_3d.jpg",
-        ikonka: "../pics/svg/profileicon",
-        komoryProfilu: "5 Kammer, 2 Dichtungen, 70 mm Tiefe",
-        last: false,
-        section: "./pics/sections/ct70rondo.png",
-        movie: "./movies/ct70R.mp4"
-    },
-
-    {
-        id: "pic_profil_living_classic",
-        idcolor: "living_color", 
-        idcena: "living_cena",
-        idmwst: "living_mwst",
-        src: "../../pics/profile/living_classic_weiß.png",
-        alt: "Schüco Living MD",
-        desc: "7 Kammer Profil mit 3 Dichtungen, 82 mm Einbautiefe. Versetzte klassische Optik. Fenster Uw ab 0,8 W/(m²·K), Glas Ug ab 0,5 W/(m²·K).",
-        brand: "s",
-        material: "k",
-        prices: [90, 96, 105, 116, 122],
-        idSlide: "living",
-        picSlide: "./pics/living_3d.jpg",
-        ikonka: "../pics/svg/profileicon",
-        komoryProfilu: "7 Kammer, 3 Dichtungen, 82 mm Tiefe",
-        last: false,
-        section: "./pics/sections/living.png",
-        movie: "./movies/living.mp4"
-    },
+    
+   
     
    /*  {
         id: "pic_profil_koemmerling_70",
@@ -216,47 +159,9 @@ const PROFILE = [
         last: false,
         section: "./pics/sections/mb86.png",
         movie: "./movies/mb86.mp4"
-    },
+    }
 
-    {
-        id: "pic_profil_aws_75",
-        idcolor: "aws_75_color", 
-        idcena: "aws_75_cena",
-        idmwst: "aws_75_mwst",
-        src: "../../pics/profile/pe78n_f.png",
-        alt: "Schüco AWS 75 SI",
-        desc: "Aluminium 3 gedämte Kammer, Rahmen 75 mm Einbautiefe.  Flügel 85 mm. Mehrkammer-thermische Trennung, Rahmen Uf ab 0,92 W/(m²·K), Fenster Uw ab 0,9 W/(m²·K), Glas Ug ab 0,5 W/(m²·K).",
-        brand: "sa",
-        material: "a",
-        prices: [160, 188, 203],
-        idSlide: "aws75",
-        picSlide: "./pics/aws_75_3d.jpg",
-        ikonka: "../pics/svg/profileiconalu",
-        komoryProfilu: "3 Kammer, 75 mm Einbautiefe, Thermische Trennung",
-        last: false,
-        section: "./pics/sections/aws75.png",
-        movie: "./movies/aws75.mp4"
-    },
-    
-    {
-        id: "pic_profil_aws_90",
-        idcolor: "aws_90_color", 
-        idcena: "aws_90_cena",
-        idmwst: "aws_90_mwst",
-        src: "../../pics/profile/pe78n_f.png",
-        alt: "Schüco AWS 90 SI",
-        desc: "Aluminium 3 gedämte Kammer, Rahmen 90 mm Einbautiefeiefe. Flügel 100 mm. Mehrkammer-thermische Trennung, Rahmen Uf ab 0,71 W/(m²·K), Fenster Uw ab 0,8 W/(m²·K), Glas Ug ab 0,5 W/(m²·K).",
-        brand: "sa",
-        material: "a",
-        prices: [185, 17, 242],
-        idSlide: "aws90",
-        picSlide: "./pics/aws_90_3d.jpg",
-        ikonka: "../pics/svg/profileiconalu",
-        komoryProfilu: "3 Kammer, 90 mm Einbautiefe, Thermische Trennung",
-        last: false,
-        section: "./pics/sections/aws90.png",
-        movie: "./movies/aws90.mp4"
-    },
+  
 
   ];
   
