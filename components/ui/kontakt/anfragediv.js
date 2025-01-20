@@ -168,7 +168,7 @@ function anfragediv() {
               style={{ width: 350, height: 37 }}
               className="gray f6 w3-input w3-border mv2 w3-sand w3-border-orange"
               ref={baustellenartRef}
-              defaultValue="Neubau"
+              defaultValue={router.query.baustelle === "renovierung" ? "Renovierung" : "Neubau"} // Conditional default value
             >
               <option value="Neubau">Neubau</option>
               <option value="Renovierung">Renovierung</option>
@@ -184,7 +184,7 @@ function anfragediv() {
               style={{ width: 350, height: 37 }}
               className="gray f6 w3-input w3-border mv2 w3-sand w3-border-orange"
               ref={profilRef} 
-              defaultValue="PVC Salamander BluEvolution 92"
+              defaultValue="PVC Salamander BluEvolution 82"
             >
               <option value="PVC Aluplast Ideal 4000 Softline">
                 PVC Aluplast Ideal 4000 Softline{" "}
