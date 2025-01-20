@@ -14,7 +14,7 @@ async function handler (req, res) {
       }
 
       try {
-        await fetch('https://www.gebolt.de/versand_next.php', {
+        await fetch('https://www.gebolt.de/versand_next_fp.php', {
         method: 'POST',
         body: JSON.stringify(messageBody),
         headers: {'Content-Type': 'application/json'},
