@@ -24,7 +24,7 @@ async function handler (req, res) {
     }
 
       try{ 
-          await fetch('https://www.gebolt.de/versand_anfrage.php', {
+          await fetch('https://www.gebolt.de/versand_anfrage_fp.php', {
           method: 'POST',
           body: JSON.stringify(anfrageBody),
           headers: {'Content-Type': 'application/json'},

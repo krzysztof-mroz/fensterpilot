@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { useRef } from "react";
 
 function anfragediv() {
+  const baustellenartRef = useRef();
   const profilRef = useRef();
   const insulationRef = useRef();
   const beschlagRef = useRef();
@@ -23,9 +24,12 @@ function anfragediv() {
   const ortRef = useRef();
   const emailRef = useRef();
   const messageRef = useRef();
+  const router = useRouter();
+  const { baustelle } = router.query;
 
   async function submitFormHandler(event) {
     event.preventDefault();
+    const baustellenart = baustellenartRef.current.value
     const profil = profilRef.current.value;
     const insulation = insulationRef.current.value;
     const beschlag = beschlagRef.current.value;
@@ -49,6 +53,7 @@ function anfragediv() {
     const message = messageRef.current.value;
 
     const anfrageBody = {
+      baustellenart: baustellenart,
       profil: profil,
       insulation: insulation,
       beschlag: beschlag,
@@ -138,7 +143,7 @@ function anfragediv() {
 
         <h2 className="fl f5 ma1 w-100 tc orange b">
           Sie können uns gerne auch eine{" "}
-          <a className="blue" href="mailto:info@polnische-fenster.com">
+          <a className="blue" href="mailto:info@fensterpilot.de">
             {" "}
             Email{" "}
           </a>{" "}
@@ -155,6 +160,24 @@ function anfragediv() {
         </h2>
 
         <div className="flex flex-column flex-row-l flex-wrap justify-around-l w-100 w-50-l b--moon-gray tc tl-l pa4">
+
+
+        <div className="w-100 w-third-l gray f6 mv2">Baustellenart:</div>
+          <div className="w-100  w-two-thirds-l gray f6 flex justify-center">
+            <select
+              style={{ width: 350, height: 37 }}
+              className="gray f6 w3-input w3-border mv2 w3-sand w3-border-orange"
+              ref={baustellenartRef}
+              defaultValue="Neubau"
+            >
+              <option value="Neubau">Neubau</option>
+              <option value="Renovierung">Renovierung</option>
+              
+            </select>
+            <div className="flex-auto-l"></div>
+          </div>
+
+
           <div className="w-100 w-third-l gray f6 mv2">Profil:</div>
           <div className="w-100  w-two-thirds-l gray f6 flex justify-center">
             <select
@@ -195,25 +218,7 @@ function anfragediv() {
               </option>
               <option value="PVC Gealan S8000">PVC Gealan S8000 </option>
               <option value="PVC Gealan S9000">PVC Gealan S9000 </option>
-              <option value="PVC Schüco CT 70 Classic">
-                PVC Schüco CT 70 Classic
-              </option>
-              <option value="PVC Schüco CT 70 Rondo">
-                PVC Schüco CT 70 Rondo
-              </option>
-              <option value="PVC Schüco Living MD">PVC Schüco Living MD</option>
-              <option value="PVC Kömmerling 70 AD">
-                PVC Kömmerling 70 AD{" "}
-              </option>
-              <option value="PVC Kömmerling 76 AD">
-                PVC Kömmerling 76 AD{" "}
-              </option>
-              <option value="PVC Kömmerling 76 MD">
-                PVC Kömmerling 76 MD{" "}
-              </option>
-              <option value="PVC Kömmerling 88 MD">
-                PVC Kömmerling 88 MD{" "}
-              </option>
+             
               <option value="Alu Aliplast IMPERIAL">
                 {" "}
                 Alu Aliplast IMPERIAL{" "}
@@ -238,14 +243,7 @@ function anfragediv() {
                 {" "}
                 Alu Aluprof MB 86 SI{" "}
               </option>
-              <option value="Alu Schüco AWS 75 SI">
-                {" "}
-                Alu Schüco AWS 75 SI{" "}
-              </option>
-              <option value="Alu Schüco AWS 90 SI">
-                {" "}
-                Alu Schüco AWS 90 SI{" "}
-              </option>
+              
               <option value="Alu Deceuninck 88"> Alu Deceuninck 88 </option>
               <option value="Alu Deceuninck 94"> Alu Deceuninck 94 </option>
               <option value="Alu Deceuninck 110"> Alu Deceuninck 110 </option>
@@ -266,8 +264,6 @@ function anfragediv() {
                 Alu Reynaers Slimline 38{" "}
               </option>
               <option value="Alu Reynaers CS 77"> Alu Reynaers CS 77 </option>
-              <option value="Alu Ponzio PE 68N"> Alu Ponzio PE 68N </option>
-              <option value="Alu Ponzio PE 78N"> Alu Ponzio PE 78N </option>
               <option value="Holz 68 mm"> Holz 68 mm </option>
               <option value="Holz 80 mm"> Holz 80 mm </option>
               <option value="Holz 92 mm"> Holz 92 mm </option>

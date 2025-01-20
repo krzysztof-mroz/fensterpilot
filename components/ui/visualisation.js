@@ -67,7 +67,7 @@ function visualisation(props) {
         
       <div className="flex flex-wrap justify-around mb3 w-100">
 
-<p className="ba b--moon-gray pa2 silver">
+<p className="dn-l ba b--moon-gray pa2 silver">
       <span className="block mb3">Was machen Sie?</span> {/* Question */}
       <button
         className="ba b--moon-gray pa2 black mr2 bg-white font-bold"
