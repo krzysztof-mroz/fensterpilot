@@ -70,13 +70,13 @@ function visualisation(props) {
 <p className="ba b--moon-gray pa2 silver">
       <span className="block mb3">Was machen Sie?</span> {/* Question */}
       <button
-        className="ba b--moon-gray pa2 silver mr2 bg-white"
+        className="ba b--moon-gray pa2 black mr2 bg-white font-bold"
         onClick={() => handleButtonClick('neubau')} // Neubau button
       >
         Neubau
       </button>
       <button
-        className="ba b--moon-gray pa2 silver bg-white"
+        className="ba b--moon-gray pa2 black bg-white font-bold"
         onClick={() => handleButtonClick('renovierung')} // Renovierung button
       >
         Renovierung
