@@ -100,7 +100,7 @@ const WindowInfo = () => {
       </Head>
       
       <HeaderDiv title="Kunststoff und Alu Fenster" subtitle="mit Aufmaß vor Ort und Montage" />
-      <Prodnavi />
+      {/* <Prodnavi /> */}
      
       
       <Visualisation profil = "Aluprof MB 86 SI" showProfiles = "yes" />    

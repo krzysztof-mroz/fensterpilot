@@ -9,7 +9,7 @@ function warumdiv() {
         <img src="/pics/ikona_markenware.png"></img>
         <h5>Nur Markenware</h5>
         <p className="gray f6">
-          Profile von Schüco, Profine und Ponzio, Beschläge von Winkhaus mit
+          Profile von Salamander, Aluplast und Aluprof, Beschläge von Roto und Siegenia mit
           Pilzkopf Verriegelung, Griffe von Hoppe. Alles vom feinsten mit bester
           Verarbeitungsqualität.
         </p>
@@ -37,8 +37,8 @@ function warumdiv() {
         <img src="/pics/ikona_transport.png"></img>
         <h5>Schnelle Lieferung</h5>
         <p className="gray f6">
-          Kurze Lieferzeiten. Anlieferung zu Ihrer Tür oder auf die Baustelle,
-          auf Wunsch Autos mit Gabelstapler. Lieferung auf Stahl- oder
+          Kurze Lieferzeiten. Anlieferung zu Ihrer Tür oder auf die Baustelle
+          mit Gabelstapler. Lieferung auf Stahl- oder
           Holzgestellen nach Absprache.
         </p>
       </div>

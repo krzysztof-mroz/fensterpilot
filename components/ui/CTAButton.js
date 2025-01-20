@@ -7,6 +7,7 @@ const CTAButton = () => {
   const [isBlue, setIsBlue] = useState(true);
   const router = useRouter();
 
+  
   useEffect(() => {
     const ctaOptions = [
       'Entdecken Sie, wie Sie mit unseren Fenstern Energie und Geld sparen können – Fragen Sie uns noch heute an!',

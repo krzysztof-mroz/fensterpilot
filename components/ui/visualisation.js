@@ -5,6 +5,7 @@ import ProfileStrip from "./profilestrip";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import {ContactShadows, Environment, useGLTF, OrbitControls, useTexture, Html, useProgress} from "@react-three/drei";
 import { getAllColours } from "../data/colours";
+import { useRouter } from 'next/router';
 
 
 function visualisation(props) {
@@ -15,6 +16,7 @@ function visualisation(props) {
     const [bothSidesColor, setBothSidesColor] = useState(true);
     const [blackGasket, setBlackGasket] = useState(false);
     const [aluProfile, setAluProfile] = useState(true);
+    const router = useRouter();
     
     const farben = getAllColours();
 
@@ -30,6 +32,15 @@ function visualisation(props) {
       const { progress } = useProgress()
        return <Html center>{parseInt(progress)} % geladen</Html>
     }
+
+    // Handler function for button clicks
+  const handleButtonClick = (baustelle) => {
+    router.push({
+      pathname: '/kontakt/anfrage',
+      query: { baustelle }, // Pass the parameter baustelle
+    });
+  };
+
 
   var nrKolorkuZew = 0;
   for (const kolorek of farben) {
@@ -56,14 +67,32 @@ function visualisation(props) {
         
       <div className="flex flex-wrap justify-around mb3 w-100">
 
+<p className="ba b--moon-gray pa2 silver">
+      <span className="block mb3">Was machen Sie?</span> {/* Question */}
+      <button
+        className="ba b--moon-gray pa2 silver mr2 bg-white"
+        onClick={() => handleButtonClick('neubau')} // Neubau button
+      >
+        Neubau
+      </button>
+      <button
+        className="ba b--moon-gray pa2 silver bg-white"
+        onClick={() => handleButtonClick('renovierung')} // Renovierung button
+      >
+        Renovierung
+      </button>
+    </p>
+
            {/* wizualizacja */}
           <div className="db mb4 flex flex-wrap justify-center mv1-l pb3 fl w-100 w-50-l  b--moon-gray">     
 
+         
+
               {/* hint */}
-              <p className="ba b--moon-gray pa2 silver">
+           {/*    <p className="ba b--moon-gray pa2 silver">
                 3d Visualisierung - bitte berühren
               </p>
-
+ */}
               {/* canvas */}
               <div style={{ position: "relative", height: 478 }} className="w-90">
 

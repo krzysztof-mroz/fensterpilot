@@ -200,7 +200,7 @@ function Header(props) {
       <div className="flex justify-center">
         {" "}
         {/* Center the row horizontally */}
-        <div className="db dn-l tc w-100 flex b--moon-gray">
+       {/*  <div className="db dn-l tc w-100 flex b--moon-gray">
         <p className="gray f6 flex">
           <Link href="/aluplast">
             <a className="f6 fw4 no-underline db ph3">Aluplast</a>
@@ -215,9 +215,9 @@ function Header(props) {
             <a className="f6 fw4 no-underline db ph3">Aluprof</a>
           </Link>
           </p>
-        </div>
+        </div> */}
       </div>
-      {ifAnfrage != "yes" && <CTAButton />}
+      {/* {ifAnfrage != "yes" && <CTAButton />} */}
      {/*  <AktionRabatt /> */}
     </div>
   );

@@ -61,7 +61,7 @@ function navibar() {
               {" "}
               <img
                 style={{ position: "relative", width: 30, height: 30 }}
-                src="/pics/svg/home.svg"
+                src="/pics/fensterpilot_logo_kl.png"
               ></img>
             </a>
           </Link>
