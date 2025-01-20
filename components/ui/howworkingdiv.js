@@ -13,7 +13,7 @@ function howworkingdiv() {
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/computer.svg"></img>
         <h5>Fenster finden</h5>
         <p className="gray f6">
-          Nutzen Sie unsere 3D Visualisierung und Informationen um entsprechende Fenster zu finden. Egal ob Kunststoff oder Aluminium, weiß oder farbig. Mit Rollladen, oder ohne.
+          Nutzen Sie unsere Seite mit Informationen um entsprechende Fenster zu finden. Egal ob Kunststoff oder Aluminium, weiß oder farbig. Mit Rollladen, oder ohne.
         </p>
       </div>
 
@@ -32,16 +32,16 @@ function howworkingdiv() {
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/angebot.svg"></img>
         <h5>Angebot anfordern</h5>
         <p className="gray f6">
-          Sie wissen schon, was Sie wollen. Schicken Sie uns Ihre Fensterliste, nutzen Sie alternativ unseres Anfrageformular, oder Konfigurator. Dann ist der Ball bei uns.
+          Schicken Sie uns Ihre Fensterliste, per Email, per WhatsApp oder nutzen Sie alternativ unseres Anfrageformular. Dann ist der Ball bei uns.
         </p>
       </div>
 
       <div className="w-100 w-30-l ba b--moon-gray ma2 pa3" >
         <h5>Schritt 4)</h5>
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/hersteller.svg"></img>
-        <h5>Hersteller finden</h5>
+        <h5>Angebot abwarten</h5>
         <p className="gray f6">
-          Wir schicken Ihnen ein Angebot. Betreiben Sie eine Firma mit USt. Id Nr? Dann, wenn gewünscht, werden wir Sie gerne direkt mit dem Hersteller kontaktieren.
+          Wir schicken Ihnen ein Angebot. Sie bekommen einen Kostenvoranschlag, Liefer - und Zahlungsbedingungen.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ function howworkingdiv() {
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/vertrag.svg"></img>
         <h5>Vertrag machen</h5>
         <p className="gray f6">
-          Sagt Ihnen das Angebot zu? Wir (bzw. der Hersteller) machen mit Ihnen den Vertrag fest. 
+          Sagt Ihnen das Angebot zu? Wir können direkt den Auftrag abschliessen oder Aufmaßtermin vereinbaren, falls benötigt.
         </p>
       </div>
 
@@ -60,7 +60,7 @@ function howworkingdiv() {
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/zahlung.svg"></img>
         <h5>Anzahlung leisten</h5>
         <p className="gray f6">
-          Vertrag abgeschlossen? Sie leisten dann die Anzahlung nach Vereinbarung. Kontaktieren Sie uns bitte zum Thema Absicherung Ihrer Anzahlung bei höheren Beträgen.
+          Vertrag abgeschlossen? Sie leisten dann die Anzahlung nach Vereinbarung. Beim Aufmaß werden wir die Anfahrtkosten berechnen.
         </p>
       </div>
       <div className="w-100 w-30-l ba b--moon-gray ma2 pa3" >
@@ -105,7 +105,7 @@ function howworkingdiv() {
         <img style={{ position: "relative", width: 100, height: 100 }} src="./pics/svg/transport.svg"></img>
         <h5>Transport zu Ihrer Tür</h5>
         <p className="gray f6">
-          Ca. 2 Wochen vor dem Transport werden Sie darüber informiert. Sind Restbeträge noch zu leisten? Machen Sie es bitte jetzt.
+          Eine Woche vor dem Transport werden Sie darüber informiert. Sind Restbeträge noch zu leisten? Machen Sie es bitte jetzt.
         </p>
       </div>
 
