@@ -44,13 +44,7 @@ function Mb86() {
     return windowSize;
   }
 
-  const similar = [
-    <ProductLink linktext="Aluprof MB 70 HI" href="/products/mb70" opis="Aluminium Aluprof MB 70" pic="/pics/producticons/mb70.png"/>,
-    <ProductLink linktext="Ponzio PE 68N" href="/products/pe68" opis="Aluminium Ponzio PE 68" pic="/pics/producticons/pe68.png"/>,
-    <ProductLink linktext="Ponzio PE 78N" href="/products/pe78" opis="Aluminium Ponzio PE 78" pic="/pics/producticons/pe78.png"/>,
-    <ProductLink linktext="Schüco AWS 75 SI" href="/products/aws75" opis="Aluminium Schüco AWS 75" pic="/pics/producticons/aws75.png"/>,
-    <ProductLink linktext="Schüco AWS 90 SI" href="/products/aws90" opis="Aluminium Schüco AWS 90" pic="/pics/producticons/aws90.png"/>,
-  ];
+  
 
   const together = [
     <ProductLink linktext="Vorsatz Raffstoren" href="/products/raf" opis="C80 oder Z90, Unterputz, Überputz" pic="/pics/producticons/raf.png"/>,
@@ -64,7 +58,7 @@ function Mb86() {
   return (
     <Fragment>
       <Head>
-        <title>Polnische Fenster Aluminium Aluprof MB 86 SI</title>
+        <title>Fensterpilot Aluminium Aluprof MB 86 SI</title>
         <meta
           name="description"
           content="Aluminium Fenster Aluprof MB 86 SI. 3d Visualisierung"
@@ -114,22 +108,16 @@ function Mb86() {
 
       <div className="flex flex-wrap justify-around mb3 mh4-l mt5 w-100 tc">
         <div className="w-100 w-50-l ma1 pa2 tc">
-          <video width="100%" controls>
+         {/*  <video width="100%" controls>
             <source src="../../movies/mb86.mp4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
         <div className="w-100 w-40-l ma1 pa2">
         <Image src={image_querschnitt} alt="Aluprof MB 86 SI" />
         </div>
       </div>
 
-      <Carousel
-        show={Math.floor((size.width - 50) / 186)}
-        title="Ähnliche Produkte:"
-      >
-        {similar}
-      </Carousel>
-
+    
       <Carousel
         show={Math.floor((size.width - 50) / 186)}
         title="Beschattung:"

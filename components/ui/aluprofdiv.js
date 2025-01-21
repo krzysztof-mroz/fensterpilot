@@ -48,30 +48,7 @@ function aluprofdiv() {
       opis="Aluminium Aluprof MB 86"
       pic="/pics/producticons/mb86.png"
     />,
-    <ProductLink
-      linktext="Ponzio PE 68N"
-      href="/products/pe68"
-      opis="Aluminium Ponzio PE 68"
-      pic="/pics/producticons/pe68.png"
-    />,
-    <ProductLink
-      linktext="Ponzio PE 78N"
-      href="/products/pe78"
-      opis="Aluminium Ponzio PE 78"
-      pic="/pics/producticons/pe78.png"
-    />,
-    <ProductLink
-      linktext="Schüco AWS 75 SI"
-      href="/products/aws75"
-      opis="Aluminium Schüco AWS 75"
-      pic="/pics/producticons/aws75.png"
-    />,
-    <ProductLink
-      linktext="Schüco AWS 90 SI"
-      href="/products/aws90"
-      opis="Aluminium Schüco AWS 90"
-      pic="/pics/producticons/aws90.png"
-    />,
+ 
   ];
 
   const family2 = [
@@ -87,30 +64,7 @@ function aluprofdiv() {
       opis="Aluminium Aluprof MB 70"
       pic="/pics/producticons/mb70.png"
     />,
-    <ProductLink
-      linktext="Ponzio PE 78N"
-      href="/products/pe78"
-      opis="Aluminium Ponzio PE 78"
-      pic="/pics/producticons/pe78.png"
-    />,
-    <ProductLink
-      linktext="Ponzio PE 68N"
-      href="/products/pe68"
-      opis="Aluminium Ponzio PE 68"
-      pic="/pics/producticons/pe68.png"
-    />,
-    <ProductLink
-      linktext="Schüco AWS 75 SI"
-      href="/products/aws75"
-      opis="Aluminium Schüco AWS 75"
-      pic="/pics/producticons/aws75.png"
-    />,
-    <ProductLink
-      linktext="Schüco AWS 90 SI"
-      href="/products/aws90"
-      opis="Aluminium Schüco AWS 90"
-      pic="/pics/producticons/aws90.png"
-    />,
+   
   ];
 
   return (
@@ -147,9 +101,9 @@ function aluprofdiv() {
         </div>
 
         <div className="w-100 w-50-l ma1 pa2">
-          <video width="100%" controls>
+          {/* <video width="100%" controls>
             <source src="./movies/mb70.mp4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
 
         <div className="w-100 w-40-l ma1 pa2">
@@ -196,9 +150,9 @@ function aluprofdiv() {
         </div>
 
         <div className="w-100 w-50-l ma1 pa2">
-          <video width="100%" controls>
+         {/*  <video width="100%" controls>
             <source src="./movies/mb86.mp4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
 
         <div className="w-100 w-40-l ma1 pa2">
