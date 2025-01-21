@@ -13,10 +13,10 @@ const HouseDoorsInfo = () => {
       <div className="w-100 w-50-l pa2">
         <h2 className="fl f3 ma1 mt3-l w-100 tc">Haustüren aus Kunststoff und Aluminium</h2>
         <p className="lh-copy">
-          Unsere <span className="b">Haustüren</span>, sowohl in <span className="b">Kunststoff</span> als auch in <span className="b">Aluminium</span>, bieten höchste Qualität und Sicherheit. Wir führen eine breite Palette an Türfüllungen von renommierten Herstellern wie <span className="b">Veyna</span> (für Kunststoff- und Aluminiumtüren von Ponzio) und <span className="b">Perito</span> (für Kunststofftüren).
+          Unsere <span className="b">Haustüren</span>, sowohl in <span className="b">Kunststoff</span> als auch in <span className="b">Aluminium</span>, bieten höchste Qualität und Sicherheit. Wir führen eine breite Palette an Türfüllungen.
         </p>
         <p className="lh-copy">
-          Besonders hervorzuheben sind unsere Aluminium Haustüren von <span className="b">Aluprof und Schüco</span>, ausgestattet mit hochwertigen <span className="b">Aluprof Türfüllungen</span>. Diese bieten nicht nur eine exzellente Isolierung, sondern auch ein modernes Design, angepasst an Ihre individuellen Wünsche.
+          Besonders hervorzuheben sind unsere Aluminium Haustüren von <span className="b">Aluprof </span>, ausgestattet mit hochwertigen <span className="b">flügelüberdeckenden Türfüllungen</span>. Diese bieten nicht nur eine exzellente Isolierung, sondern auch ein modernes Design, angepasst an Ihre individuellen Wünsche.
         </p>
       </div>
       <div className="w-100 w-50-l pa2">

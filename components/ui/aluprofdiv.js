@@ -101,9 +101,7 @@ function aluprofdiv() {
         </div>
 
         <div className="w-100 w-50-l ma1 pa2">
-          {/* <video width="100%" controls>
-            <source src="./movies/mb70.mp4" type="video/mp4" />
-          </video> */}
+           
         </div>
 
         <div className="w-100 w-40-l ma1 pa2">
@@ -150,9 +148,7 @@ function aluprofdiv() {
         </div>
 
         <div className="w-100 w-50-l ma1 pa2">
-         {/*  <video width="100%" controls>
-            <source src="./movies/mb86.mp4" type="video/mp4" />
-          </video> */}
+         
         </div>
 
         <div className="w-100 w-40-l ma1 pa2">
