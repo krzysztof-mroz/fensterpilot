@@ -37,19 +37,7 @@ function tuerendiv() {
     return windowSize;
   }
 
-  const tueren = [
-   
-    <ProductLink linktext="Schüco CT 70 Haustür" href="/products/ct70ht" opis="Kunststoff Haustür, 70 mm Einbautiefe" pic="/pics/producticons/ct70_ht.png"/>,
-    <ProductLink linktext="Schüco Living Haustür" href="/products/livinght" opis="Kunststoff Haustür, 82 mm Einbautiefe" pic="/pics/producticons/living_ht.png"/>,
-    <ProductLink linktext="Kömmerling 76 Haustür" href="/products/k76ht" opis="Kunststoff Haustür, 76 mm Einbautiefe" pic="/pics/producticons/k76_ht.png"/>,
-    <ProductLink linktext="Kömmerling 88 Haustür" href="/products/k88ht" opis="Kunststoff Haustür, 88 mm Einbautiefe" pic="/pics/producticons/k88_ht.png"/>,
-    <ProductLink linktext="Schüco CT 70 Nebeneingangstür" href="/products/ct70nt" opis="Kunststoff Tür, 70 mm Einbautiefe" pic="/pics/producticons/ct70_nt.png"/>,
-    <ProductLink linktext="Schüco Living Nebeneingangstür" href="/products/livingnt" opis="Kunststoff Tür, 82 mm Einbautiefe" pic="/pics/producticons/living_nt.png"/>,
-    <ProductLink linktext="Kömmerling 70 Nebeneingangstür" href="/products/k70nt" opis="Kunststoff Tür, 70 mm Einbautiefe" pic="/pics/producticons/k70_nt.png"/>,
-    <ProductLink linktext="Kömmerling 76 Nebeneingangstür" href="/products/k76nt" opis="Kunststoff Tür, 76 mm Einbautiefe" pic="/pics/producticons/k76_nt.png"/>,
-    <ProductLink linktext="Kömmerling 88 Nebeneingangstür" href="/products/k88nt" opis="Kunststoff Tür, 88 mm Einbautiefe" pic="/pics/producticons/k88_nt.png"/>,
   
-  ];
 
   const router = useRouter();
 
@@ -68,11 +56,10 @@ function tuerendiv() {
         className="w-100 w-30-l ba b--moon-gray ma2 pa3 dim"
         onMouseDown={gotoVeyna}
       >
-        <img src="./pics/icons/veyna.jpg"></img>
-        <h5>Veyna Kunststoff Türfüllungen</h5>
+        <img src="./pics/icons/kunststoff_tuer.png"></img>
+        <h5>Eingesetzte Türfüllungen</h5>
         <p className="gray f6">
-          Kunststofffüllungen für Haustüren. Für Haustüren mit Kömmerling
-          Profil.
+          Kunststoff- und Aluminium Füllungen für Haustüren. Verschiedene Modelle und Farben.
         </p>
       </div>
 
@@ -82,50 +69,43 @@ function tuerendiv() {
 
       <div
         className="w-100 w-30-l ba b--moon-gray ma2 pa3 dim"
-        onMouseDown={gotoPerito}
+        
       >
-        <img src="./pics/icons/perito.jpg"></img>
-        <h5>Perito Kunststoff Türfüllungen</h5>
+        <img src="./pics/icons/alu_tuer.png"></img>
+        <h5>Despiro Aluminium Türfüllungen</h5>
         <p className="gray f6">
-          Kunststofffüllungen für Haustüren. Für Haustüren mit Schüco Profil.
+         Flügelüberdeckende Aluminium Türfüllungen für Haustüren. Aluprof Despiro
         </p>
       </div>
 
       <div
         className="w-100 w-30-l ba b--moon-gray ma2 pa3 dim"
-        onMouseDown={gotoVeynaAlu}
+        
       >
-        <img src="./pics/icons/veynaalu.png"></img>
-        <h5>Veyna Aluminium Türfüllungen.</h5>
+        <img src="./pics/icons/neben_tuer.png"></img>
+        <h5>Kunststoff Nebeneingangstüren</h5>
         <p className="gray f6">
-          Aluminium Füllungen für Haustüren. Als Einsatzfüllungen und
-          flügelüberdeckend. Für Ponzio Aluminium Haustüren.
+        Einfache und günstige Nebeneingangstüren, Kunststoff und Aluminium.
         </p>
       </div>
       <div
         className="w-100 w-30-l ba b--moon-gray ma2 pa3 dim"
-        onMouseDown={gotoAluprof}
+        
       >
-        <img src="./pics/icons/aluprof.png"></img>
-        <h5>Aluprof Aluminium Türfüllungen</h5>
+        <img src="./pics/icons/glas_tuer.png"></img>
+        <h5>Glas Türfüllungen</h5>
         <p className="gray f6">
-          Aluminium Füllungen für Haustüren. Als Einsatzfüllungen und
-          flügelüberdeckend. Für Aluprof Aluminium Haustüren.
+          Glas Türfüllungen für ein etwas anderes Design. 
         </p>
       </div>
       <div className="w-100 w-30-l ba b--moon-gray ma2 pa3 dim">
         <img src="./pics/icons/musterecke.png"></img>
-        <h5>Parameter der Haustüren</h5>
+        <h5>Neueste Technologie</h5>
         <p className="gray f6">
-          Details zum Beschlag, Profil, Füllung, Wärmedämmung und weiteres.
+          Flügelüberdeckende Technologie für beste Wärmedämmung und Design.
         </p>
       </div>
-      <Carousel
-        show={Math.floor((size.width - 50) / 186)}
-        title="Unsere Türenprofile:"
-      >
-        {tueren}
-      </Carousel>
+    
     </div>
   );
 }
