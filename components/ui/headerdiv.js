@@ -46,9 +46,9 @@ function Header(props) {
   };
 
   const contactData = {
-    phone: "0700 44 700 99",
+    phone: "0152 2598 7783",
     email: "info@fensterpilot.de",
-    whatsapp: "+4915737448021",
+    whatsapp: "+4915225987783",
   };
 
   const renderContactData = () => {
@@ -136,7 +136,7 @@ function Header(props) {
             src="/pics/svg/anruf.svg"
             alt="Phone"
           />
-          <p className="dib">0700 44 700 99</p>
+          <p className="dib">0152 2598 7783</p>
         </div>
         <div className="w-100 mv1">
           <img
@@ -156,8 +156,8 @@ function Header(props) {
             src="/pics/svg/whatsapp.svg"
             alt="WhatsApp"
           />
-          <a className="green" href="https://wa.me/4915737448021" target="_blank">
-            +4915737448021
+          <a className="green" href="https://wa.me/4915225987783" target="_blank">
+            +4915225987783
           </a>
         </div>
       </div>

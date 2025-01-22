@@ -18,7 +18,7 @@ function Kontakt() {
         <p className="gray f6">Fensterpilot.de </p>
         <p className="gray f6">Münzstraße 2 </p>
         <p className="gray f6">38100 Braunschweig </p>    
-        <p className="gray f6">Tel: 0800 4470099</p>
+        <p className="gray f6">Tel: 0152 2598 7783</p>
         <p className="gray f6">Email: info@fensterpilot.de</p>
       
       </div>
