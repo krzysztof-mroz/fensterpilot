@@ -54,7 +54,11 @@ function Header(props) {
   const renderContactData = () => {
     return (
       <div className="db dn-l tc w-100 w3-text-orange">
-        {activeContact === "phone" && <p>{contactData.phone}</p>}
+        {activeContact === "phone" && (<p>
+            <a className="blue" href={`tel:${contactData.phone}`} target="_blank">
+              {contactData.phone}
+            </a>
+          </p>)}
         {activeContact === "email" && (
           <p>
             <a className="blue" href={`mailto:${contactData.email}`}>{contactData.email}</a>
@@ -136,7 +140,9 @@ function Header(props) {
             src="/pics/svg/anruf.svg"
             alt="Phone"
           />
-          <p className="dib">0152 2598 7783</p>
+          <a className="blue" href="tel:+4915225987783" target="_blank">
+            +4915225987783
+          </a>
         </div>
         <div className="w-100 mv1">
           <img
