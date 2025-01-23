@@ -172,32 +172,38 @@ function Header(props) {
       <div className="db dn-l w-50 fl tc f5 w3-text-orange flex">
         <div className="w-33">
           <div className="contact-icon" onClick={() => setActive("phone")}>
+          <a  href="tel:+4915225987783" target="_blank">
             <img
               className="dib mr2"
               style={{ position: "relative", width: 25, height: 25 }}
               src="/pics/svg/anruf.svg"
               alt="Phone"
             />
+            </a>
           </div>
         </div>
         <div className="w-33 ">
           <div className="contact-icon" onClick={() => setActive("email")}>
+          <a href="mailto: info@pfensterpilot.com">
             <img
               className="dib mr2"
               style={{ position: "relative", width: 25, height: 25 }}
               src="/pics/svg/briefumschlag.svg"
               alt="Email"
             />
+            </a>
           </div>
         </div>
         <div className="w-33 ">
           <div className="contact-icon" onClick={() => setActive("whatsapp")}>
+          <a href="https://wa.me/4915225987783" target="_blank">
             <img
               className="dib mr2"
               style={{ position: "relative", width: 25, height: 25 }}
               src="/pics/svg/whatsapp.svg"
               alt="WhatsApp"
             />
+            </a>
           </div>
         </div>
       </div>
