@@ -97,6 +97,9 @@ const WindowInfo = () => {
         />
          
         <link rel="icon" href="/favicon.ico" />
+
+       
+
       </Head>
       
       <HeaderDiv title="Kunststoff und Alu Fenster" subtitle="mit Aufmaß vor Ort und Montage" />
