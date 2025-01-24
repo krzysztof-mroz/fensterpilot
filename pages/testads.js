@@ -55,21 +55,21 @@ function useWindowSize() {
 }
 
 const fenster = [
-  <ProductLink linktext="Schüco CT 70 Classic" href="/products/ct70" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/ct70_classic.png"/>,
-  <ProductLink linktext="Schüco CT 70 Rondo" href="/products/ct70rondo" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/ct70_rondo.png"/>,
-  <ProductLink linktext="Schüco Living MD" href="/products/living" opis="Kunststoff 7 Kammer, 82 mm Einbautiefe" pic="/pics/producticons/living.png"/>,
-  <ProductLink linktext="Kömmerling 70 AD" href="/products/k70" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/k70.png"/>,
-  <ProductLink linktext="Kömmerling 76 MD" href="/products/k76md" opis="Kunststoff 6 Kammer, 76 mm Einbautiefe" pic="/pics/producticons/k76_md.png"/>,
-  <ProductLink linktext="Kömmerling 88 MD" href="/products/k88" opis="Kunststoff 7 Kammer, 88 mm Einbautiefe" pic="/pics/producticons/k88.png"/>,
-  <ProductLink linktext="Ponzio PE 68N" href="/products/pe68" opis="Aluminium Ponzio PE 68" pic="/pics/producticons/pe68.png"/>,
-  <ProductLink linktext="Ponzio PE 78N" href="/products/pe78" opis="Aluminium Ponzio PE 78" pic="/pics/producticons/pe78.png"/>,
+  <ProductLink linktext="aluplast CT 70 Classic" href="/products/ct70" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/ct70_classic.png"/>,
+  <ProductLink linktext="aluplast CT 70 Rondo" href="/products/ct70rondo" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/ct70_rondo.png"/>,
+  <ProductLink linktext="aluplast Living MD" href="/products/living" opis="Kunststoff 7 Kammer, 82 mm Einbautiefe" pic="/pics/producticons/living.png"/>,
+  <ProductLink linktext="salamander 70 AD" href="/products/k70" opis="Kunststoff 5 Kammer, 70 mm Einbautiefe" pic="/pics/producticons/k70.png"/>,
+  <ProductLink linktext="salamander 76 MD" href="/products/k76md" opis="Kunststoff 6 Kammer, 76 mm Einbautiefe" pic="/pics/producticons/k76_md.png"/>,
+  <ProductLink linktext="salamander 88 MD" href="/products/k88" opis="Kunststoff 7 Kammer, 88 mm Einbautiefe" pic="/pics/producticons/k88.png"/>,
+  <ProductLink linktext="aliplast PE 68N" href="/products/pe68" opis="Aluminium aliplast PE 68" pic="/pics/producticons/pe68.png"/>,
+  <ProductLink linktext="aliplast PE 78N" href="/products/pe78" opis="Aluminium aliplast PE 78" pic="/pics/producticons/pe78.png"/>,
   <ProductLink linktext="Aluprof MB 86 SI" href="/products/mb86" opis="Aluminium Aluprof MB 86" pic="/pics/producticons/mb86.png"/>,
-  <ProductLink linktext="Schüco AWS 75 SI" href="/products/aws75" opis="Aluminium Schüco AWS 75" pic="/pics/producticons/aws75.png"/>,
-  <ProductLink linktext="Schüco AWS 90 SI" href="/products/aws90" opis="Aluminium Schüco AWS 90" pic="/pics/producticons/aws90.png"/>,
-  <ProductLink linktext="Schüco Living Haustür" href="/products/livinght" opis="Kunststoff Haustür, 82 mm Einbautiefe" pic="/pics/producticons/living_ht.png"/>,
-  <ProductLink linktext="Kömmerling 88 Haustür" href="/products/k88ht" opis="Kunststoff Haustür, 88 mm Einbautiefe" pic="/pics/producticons/k88_ht.png"/>,
-  <ProductLink linktext="Schüco LivingSlide" href="/hs" opis="Hebe Schiebe, flache Schwelle" pic="/pics/producticons/hs_ls_weiss.png"/>,
-  <ProductLink linktext="Kömmerling Premidoor 88" href="/hspd" opis="Hebe Schiebe, flache Schwelle" pic="/pics/producticons/hs_pd.png"/>,
+  <ProductLink linktext="aluplast AWS 75 SI" href="/products/aws75" opis="Aluminium aluplast AWS 75" pic="/pics/producticons/aws75.png"/>,
+  <ProductLink linktext="aluplast AWS 90 SI" href="/products/aws90" opis="Aluminium aluplast AWS 90" pic="/pics/producticons/aws90.png"/>,
+  <ProductLink linktext="aluplast Living Haustür" href="/products/livinght" opis="Kunststoff Haustür, 82 mm Einbautiefe" pic="/pics/producticons/living_ht.png"/>,
+  <ProductLink linktext="salamander 88 Haustür" href="/products/k88ht" opis="Kunststoff Haustür, 88 mm Einbautiefe" pic="/pics/producticons/k88_ht.png"/>,
+  <ProductLink linktext="aluplast LivingSlide" href="/hs" opis="Hebe Schiebe, flache Schwelle" pic="/pics/producticons/hs_ls_weiss.png"/>,
+  <ProductLink linktext="salamander Premidoor 88" href="/hspd" opis="Hebe Schiebe, flache Schwelle" pic="/pics/producticons/hs_pd.png"/>,
   <ProductLink linktext="Vorsatz Raffstoren" href="/products/raf" opis="C80 oder Z90, Unterputz, Überputz" pic="/pics/producticons/raf.png"/>,
   <ProductLink linktext="Aufsatz Rollläden" href="/products/ael" opis="Aluminium Lamellen, Motorsteuerung" pic="/pics/producticons/ael.png"/>,
   <ProductLink linktext="Vorsatz Rollläden SK" href="/products/sk" opis="Aluminium Lamellen, eckiger Kasten" pic="/pics/producticons/vsr_sk.png"/>,
@@ -86,26 +86,26 @@ const fenster = [
 
     <Fragment>
       <Head>
-        <title>Polnische Fenster Kunststoff und Aluminium</title>
+        <title>Fensterpilot Kunststoff und Aluminium</title>
         <meta name='description'
-              content='Schüco, Kömmerling, Ponzio und Aluprof Fenster aus Polen mit Montage. 3d Visualisierung'
+              content='Aluplast, Salamander, Aliplast und Aluprof Fenster aus Polen mit Montage. 3d Visualisierung'
         />
          <meta name='keywords'
-              content='fenster, kunststofffenster, fenster aus polen, schüco, kömmerling, ponzio, aluprof, fenster konfigurator'
+              content='fenster, kunststofffenster, fenster aus polen, aluplast, salamander, aliplast, aluprof, fenster konfigurator'
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeaderDiv title="Kunststoff und Aluminium Fenster aus Polen" />
-      <Visualisation profil = "Kömmerling 88 MD" showProfiles = "yes" />
+      <Visualisation profil = "salamander 88 MD" showProfiles = "yes" />
 
       <Description />
 
       <div className="flex flex-wrap justify-around mb3 w-100 tc">
         <div className="w-100 w-40-l ma2 mt5-l">
-          <Image src={image1} alt="Schüco CT 70 Classic" />
+          <Image src={image1} alt="aluplast CT 70 Classic" />
         </div>
         <div className="w-100 w-40-l ma2 mt5-l">
-          <Image src={image2} alt="Schüco CT 70 Classic" />
+          <Image src={image2} alt="aluplast CT 70 Classic" />
         </div>
       </div>
 

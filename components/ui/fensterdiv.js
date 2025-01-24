@@ -61,8 +61,8 @@ function fensterdiv() {
   function gotoKoemmerling(e) {
     router.push("./koemmerling")
   }
-  function gotoPonzio(e) {
-    router.push("./ponzio")
+  function gotoaliplast(e) {
+    router.push("./aliplast")
   }
   function gotoAluprof(e) {
     router.push("./aluprof")

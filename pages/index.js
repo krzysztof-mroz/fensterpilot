@@ -91,7 +91,7 @@ const WindowInfo = () => {
 
     <Fragment>
       <Head>
-        <title>Salamander / Aluplast / Gealan / Aluprof Fenster aus Polen kaufen, Kunststoff und Alu</title>
+        <title>Salamander Aluplast Gealan Aluprof Fenster aus Polen kaufen, Kunststoff und Alu</title>
         <meta name='description'
               content='Erreichen Sie garantiert bis 70% bessere Wärmedämmung mit Salamander, Aluplast, und Aluprof Fenster / Türen aus Polen, mit Montage.'
         />

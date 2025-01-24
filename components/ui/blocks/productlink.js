@@ -38,7 +38,7 @@ export default ProductLink;
              <div className="w-100">
              <img src="/pics/producticons/ct70_ht.png"></img>
              </div>
-             <p className="gray f6">Schüco Schüco Schüco Schüco Schüco Schüco Schüco Schüco Schüco Schüco<br/>CT 70<br/>Haustür</p>
+             <p className="gray f6">aluplast aluplast aluplast aluplast aluplast aluplast aluplast aluplast aluplast aluplast<br/>CT 70<br/>Haustür</p>
         </button> 
       </div>
 

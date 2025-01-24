@@ -43,7 +43,7 @@ const WindowBrandsInfo = () => {
   return (
     <Fragment>
       <Head>
-        <title>Fenster Salamander, Aluplast, Aluprof. Kunststoff und Alu.</title>
+        <title>Fenster aus Polen: Salamander, Aluplast, Aluprof. Kunststoff und Alu.</title>
         <meta
           name="description"
           content="Sie kaufen garantiert passende Fenster bei uns. Sie erreichen Wärmedämmungswerte für KfW Förderung. Mit Montage und bester vor Ort Beratung."

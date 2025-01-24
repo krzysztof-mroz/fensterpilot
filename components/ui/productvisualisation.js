@@ -272,12 +272,12 @@ function productvisualisation({...props}) {
         function profileChangeHandler(newProfile) {
             setActiveProfile(newProfile);
             if (
-              newProfile == "Ponzio PE 68N" ||
-              newProfile == "Ponzio PE 78N" ||
+              newProfile == "aliplast PE 68N" ||
+              newProfile == "aliplast PE 78N" ||
               newProfile == "Aluprof MB 70 HI" ||
               newProfile == "Aluprof MB 86 SI" ||
-              newProfile == "Schüco AWS 75 SI" ||
-              newProfile == "Schüco AWS 90 SI"
+              newProfile == "aluplast AWS 75 SI" ||
+              newProfile == "aluplast AWS 90 SI"
             ) {
               if (aluProfile === false) {
                 setAluProfile(true);

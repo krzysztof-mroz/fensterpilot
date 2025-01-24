@@ -7,7 +7,7 @@ function Kontakt() {
   return (
     <Fragment>
       <Head>
-        <title>Kontakt zu Polnischen Fenstern</title>
+        <title>Kontakt zu Fensterpilot</title>
         <meta name='description'
               content='Schneller Kontakt zu uns. Sie bekommen hier die beste Beratung, telefonisch oder vor Ort. Nutzen Sie die Gelegenheit jetzt!'
         />

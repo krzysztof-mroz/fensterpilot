@@ -139,9 +139,7 @@ function footer() {
               <Link href="/beratung">
                 <a className="f6 fw4 no-underline  db  ph3">Beratung</a>
               </Link>
-              <Link href="/vermittlung">
-                <a className="f6 fw4 no-underline  db  ph3">Vermittlung</a>
-              </Link>
+              
               <Link href="/montage">
                 <a className="f6 fw4 no-underline  db  ph3">Montage</a>
               </Link>

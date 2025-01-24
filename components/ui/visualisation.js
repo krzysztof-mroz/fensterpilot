@@ -123,7 +123,7 @@ function visualisation(props) {
                   </Suspense>
 
                   <Suspense fallback={<Loader />}>
-                    {activeProfile == "Schüco CT 70 Classic" ? (
+                    {activeProfile == "aluplast CT 70 Classic" ? (
                       <Ct70Classic
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -131,7 +131,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Schüco CT 70 Rondo" ? (
+                    {activeProfile == "aluplast CT 70 Rondo" ? (
                       <Ct70Rondo
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -139,7 +139,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Schüco Living MD" ? (
+                    {activeProfile == "aluplast Living MD" ? (
                       <Living
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -147,7 +147,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Kömmerling 70 AD" ? (
+                    {activeProfile == "salamander 70 AD" ? (
                       <K70
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -155,7 +155,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Kömmerling 76 AD" ? (
+                    {activeProfile == "salamander 76 AD" ? (
                       <K76Ad
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -163,7 +163,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Kömmerling 76 MD" ? (
+                    {activeProfile == "salamander 76 MD" ? (
                       <K76Md
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -171,7 +171,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Kömmerling 88 MD" ? (
+                    {activeProfile == "salamander 88 MD" ? (
                       <K88
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -179,7 +179,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Ponzio PE 68N" ? (
+                    {activeProfile == "aliplast PE 68N" ? (
                       <Pe68
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -187,7 +187,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Ponzio PE 78N" ? (
+                    {activeProfile == "aliplast PE 78N" ? (
                       <Pe78N
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -211,7 +211,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Schüco AWS 75 SI" ? (
+                    {activeProfile == "aluplast AWS 75 SI" ? (
                       <Aws75
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -219,7 +219,7 @@ function visualisation(props) {
                         blackGasket={blackGasket}
                       />
                     ) : null}
-                    {activeProfile == "Schüco AWS 90 SI" ? (
+                    {activeProfile == "aluplast AWS 90 SI" ? (
                       <Aws90
                         rotation-y={Math.PI * 1.33}
                         colorInside={colorInside}
@@ -304,12 +304,12 @@ function visualisation(props) {
         function profileChangeHandler(newProfile) {
             setActiveProfile(newProfile);
             if (
-              newProfile == "Ponzio PE 68N" ||
-              newProfile == "Ponzio PE 78N" ||
+              newProfile == "aliplast PE 68N" ||
+              newProfile == "aliplast PE 78N" ||
               newProfile == "Aluprof MB 70 HI" ||
               newProfile == "Aluprof MB 86 SI" ||
-              newProfile == "Schüco AWS 75 SI" ||
-              newProfile == "Schüco AWS 90 SI"
+              newProfile == "aluplast AWS 75 SI" ||
+              newProfile == "aluplast AWS 90 SI"
             ) {
               if (aluProfile === false) {
                 setAluProfile(true);

@@ -31,7 +31,7 @@ const CustomerReview = () => {
     },
     {
       images: ['/pics/referenzen/ofterdingen.jpg', '/pics/referenzen/ofterdingen2.jpg'],
-      review: `Die Schüco Fenster mit Unterputz Rollläden für mein Mehrfamilienhaus waren eine hervorragende Wahl. Tolle Zusammenarbeit, alle Fenster haben perfekt gepasst.`,
+      review: `Die aluplast Fenster mit Unterputz Rollläden für mein Mehrfamilienhaus waren eine hervorragende Wahl. Tolle Zusammenarbeit, alle Fenster haben perfekt gepasst.`,
       name: 'Herr Nevzat, Ofterdingen'
     },
     {

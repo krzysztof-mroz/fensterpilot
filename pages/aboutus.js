@@ -8,12 +8,12 @@ function Kontakt() {
   return (
     <Fragment>
       <Head>
-        <title>Polnische Fenster Kunststoff und Aluminium</title>
+        <title>Fensterpilot Kunststoff und Aluminium</title>
         <meta name='description'
-              content='Schüco, Kömmerling, Ponzio und Aluprof Fenster aus Polen mit Montage. 3d Visualisierung'
+              content='Aluplast, Salamander, Aliplast und Aluprof Fenster aus Polen mit Montage. 3d Visualisierung'
         />
          <meta name='keywords'
-              content='fenster, kunststofffenster, fenster aus polen, schüco, kömmerling, ponzio, aluprof, fenster konfigurator'
+              content='fenster, kunststofffenster, fenster aus polen, aluplast, salamander, aliplast, aluprof, fenster konfigurator'
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

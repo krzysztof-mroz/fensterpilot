@@ -13,7 +13,7 @@ function anfrage() {
         <title>Anfrage Fenster</title>
         <meta
           name="description"
-          content="Polnische Fenster - Anfrage."
+          content="Fensterpilot - Anfrage."
         />
         <meta name="keywords" content="fenster, kunststofffenster, alufenster, anfrage, fensteranfrage" />
       </Head>
